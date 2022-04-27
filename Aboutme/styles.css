@@ -1,0 +1,46 @@
+
+h1
+{
+color: skyblue
+
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: skyblue;
+      text-align: left;
+      letter-spacing: 0.25em;
+    background-size: cover;
+    display: table;
+}
+
+
+body {
+    background-color:#33503394;
+    color: white;
+    font: 18px normal;
+    font-family: Georgia, 'Garamond', sans-serif;
+    
+}
+
+
+pre {
+    font-family: monospace;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+pre {
+    font-family: monospace;
+    text-align: right;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
