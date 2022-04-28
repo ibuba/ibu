@@ -27,7 +27,7 @@ body {
     color: #404040;
     font: 11px normal;
     font-family: Georgia, 'Garamond', sans-serif;
-    background-image: url('./images/silverware.jpg');
+    background-image: url('./images/silverware1.jpg');
 }
 
 a {
@@ -40,7 +40,7 @@ pre {
 
 blockquote {
     font-style: italic;
-    background-color: #FFFFA8;
+    background-color: yellow
 }
 
 pre {
