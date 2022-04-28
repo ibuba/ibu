@@ -14,7 +14,7 @@ h2, h3 {
   display: table;
 }
 
-pre.quote{
+quote{
   font-style: italic;
   background-color: #FFFFA8;
 }
