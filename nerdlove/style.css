@@ -3,6 +3,9 @@
 color:brown
 
 }
+body { background-image: url("./institute_2.jpg");
+  opacity : 1;
+}
 
 a {
   color: red;
@@ -41,6 +44,7 @@ a {
 
 .signup-labels {
   width: 27%;
+
 }
 
 .signup-inputs {
