@@ -1,10 +1,14 @@
 
 function TaskSaver() {
 let task = document.getElementById('myInput').value;
-  let words = localStorage.getItem("taskList");
-  localStorage.setItem("taskList", words + "\n" + task);
-  var taskList = document.getElementById("tasklist");
-  taskList.value = localStorage.taskList;
+let words = localStorage.getItem("ibu");
+if(words!=null){
+ localStorage.setItem("ibu", words + "\n" + task);
+}
+else{
+  localStorage.setItem("ibu",  "\n" + task);
+}
+  tasklist.innerHTML = localStorage.ibu;
   document.getElementById('myInput').value = null;
 }
 function TaskClear() {

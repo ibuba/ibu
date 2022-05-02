@@ -6,17 +6,19 @@ body {
 }
 .myDiv {
   border: 5px outset blue;
-  background-color: grey;    
-  
+}
+#better{
+  display: inline-flex;
 }
 h1{
   text-align: center;
+  color:blue;
 
 }
-textarea {
-  display: flex
-  vertical-align  baseline;
+#myInput{
+  border-color:blue;
 }
+
 div {
   margin: 0.5em;
 }
@@ -25,8 +27,6 @@ body, input, button {
   font-size: 20pt;
 }
 button{
-  background-color: tan
-}
-#logo{
-height: 100px;
+  background-color:grey;
+  
 }
