@@ -1,0 +1,6 @@
+
+const ibu=require('./test');
+console.log("The current Location: " + ibu.getLocation());
+console.log("Date  of  birth"+ ibu.dob);
+console.log("Name "+ibu.getName());
+  
