@@ -1,10 +1,18 @@
 body {
-    margin: 0px;
+    margin: 1px;
+    position: relative;
+    background-color:lightblue
+}
+.page-search {
+    background-color: #e0dddd;
+    width: 100%;
+    font-size: 22px;
+    height: 60px;
     position: relative;
 }
-
 .page-top {
-    background-color: #c9c8c8;
+    background-color: #5c4e4e;
+    opacity: 3;
     font-size: 30px;
     width: 100%;
 }
@@ -12,14 +20,6 @@ body {
 .page-top h1 {
     padding: 5px;
     margin: 0px;
-}
-
-.page-search {
-    background-color: #e0dddd;
-    width: 100%;
-    font-size: 22px;
-    height: 60px;
-    position: relative;
 }
 
 .search-box {

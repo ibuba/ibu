@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const wordJs = require('./conn-db.js');
+const conn = require('./conn-db.js');
 const port = 8000;
 
 app.use(function(req, res, next) {
@@ -16,8 +16,8 @@ app.use(express.urlencoded({
 }))
 
 app.post('/search', (req, res) => {
-    const term = req.body.term
-    wordJs.searchTerm(term, res);
+    const  result = req.body.word
+    conn.searchTerm(result, res);
 })
 
 app.listen(port, () => {
